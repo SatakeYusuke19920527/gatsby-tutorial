@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/header';
+import './about-css-modules.module.css';
 export default function About() {
   return (
     <div style={{ color: `teal` }}>

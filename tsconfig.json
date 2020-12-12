@@ -1,7 +1,7 @@
 {
   "include": [
     "./src/**/*"
-  ],
+, "gatsby-browser.ts"  ],
   "compilerOptions": {
     "target": "esnext",
     "module": "esnext",
@@ -16,6 +16,9 @@
     "emitDecoratorMetadata": true,
     "noEmit": true,
     "skipLibCheck": true,
-    "moduleResolution": "node"
+    "moduleResolution": "node",
+    "typeRoots": [
+      "./src/*"
+    ]
   }
 }
